@@ -1,0 +1,19 @@
+{
+  "name": "estrucdatos2",
+  "version": "1.0.0",
+  "description": "Materia de Estructura de Datos 2",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/obrte/EstrucDatos2.git"
+  },
+  "author": "OmarBrte",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/obrte/EstrucDatos2/issues"
+  },
+  "homepage": "https://github.com/obrte/EstrucDatos2#readme"
+}
