@@ -87,6 +87,11 @@ export default {
         icon: "spa",
         text: "TreeView",
         link: "home"
+      },
+      {
+        icon: "spa",
+        text: "TreeView2",
+        link: "treeview2"
       }
     ]
   }),
