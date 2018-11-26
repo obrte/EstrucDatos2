@@ -120,7 +120,7 @@ export default {
     selected() {
       if (!this.active.length) return undefined;
 
-      return this.active["name"];
+      return this.active;
     }
   },
 
@@ -137,7 +137,7 @@ export default {
       //   name: "new stuff",
       //   file: true
       // });
-      alert(this.active["file"]);
+      alert(this.active);
     }
   },
   props: {
