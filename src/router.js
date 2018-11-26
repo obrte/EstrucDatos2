@@ -1,22 +1,16 @@
 import Vue from 'vue'
 import Router from 'vue-router'
-import Home from './views/Home.vue'
-import TreeView2 from './views/TreeView.vue'
+import TreeView1 from './views/TreeView1.vue'
+// import TreeView2 from './views/TreeView2.vue'
 
 Vue.use(Router)
 
 const router = new Router({
 	routes: [{
-		path: '/',
-		name: 'home',
-		component: Home
-	},
-	{
-		path: '/treeview2',
-		name: 'treeview2',
-		component: TreeView2
-	}
-	]
+		path: '/TreeView1',
+		name: 'TreeView1',
+		component: TreeView1
+	}]
 })
 
 export default router
