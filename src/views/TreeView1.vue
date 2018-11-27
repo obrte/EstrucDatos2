@@ -16,7 +16,7 @@
                     </v-treeview>
                 </v-flex>
                 <v-flex xs12 sm4 md4>
-                    <v-text-field label="Padre" v-model="active" disabled outline></v-text-field>
+                    <v-text-field label="Padre" v-model="selected" disabled outline></v-text-field>
                     <v-text-field label="Agregar Hijo" v-model="NuevoHijo" outline></v-text-field>
                     <v-btn fab dark large color="light-green" @click="agregarHijo">
                         <v-icon dark>subdirectory_arrow_left</v-icon>
@@ -119,7 +119,7 @@ export default {
   computed: {
     selected() {
       if (!this.active.length) return undefined;
-
+      console.log(this.active);
       return this.active;
     }
   },
